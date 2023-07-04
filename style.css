@@ -1,9 +1,14 @@
+body{
+    margin: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 /* navigation bar */
 .navbar {
-    position: fixed;
+    position: absolute;
     top: 50;
     right: 0;
-    padding: 45px;
+    padding: 30px;
+    padding-bottom: 0px;
   }
   
   .navbar ul {
@@ -25,24 +30,56 @@
   
   .navbar li a:hover {
     background-color: #ddd;
-  }
-  #btn{
-    background-color: green;
-    color: white;
-    font-weight: 700;
-    font-size: larger;
     border-radius: 10px;
   }
+  #signin-btn{
+    background: rgba(33, 181, 115, 1);
+    margin: 10px;
+    padding: 12px 28px 12px 28px;
+    color: white;
+    font-weight: 700;
+    border-radius: 30px;  
+  }
+
+  #GetStarted-btn{
+    text-decoration: none;
+    background: rgba(33, 181, 115, 1);
+    padding: 14px 36px 14px 36px;
+    color: white;
+    font-weight: 700;
+    border-radius: 30px;  
+  }
+  
 /* E-book LOGO */
   .container {
     position: absolute;
     top: 30px;
-    left: 212px;
+    left: 100px;
   }
   
   .container img {
     width: 198.07px;
     height: 59px;
+  }
+  #h4-text{
+    color: rgba(253, 81, 26, 1);
+    padding: 200px 24px 0px 1px;
+  }
+  .header-h1{
+    padding: 0px 0px 0px 100px;
+    float: left;
+  }
+  #greenish{
+    color: rgba(33, 181, 115, 1);
+  }
+  .illustration{
+    width: 900px;
+    float: right;
+   padding-top: 90px;
+   padding-right: 0px;
+   padding-bottom: 0px;
+   padding-left: 0px;
+   
   }
   
   
