@@ -79,7 +79,63 @@ body{
    padding-right: 0px;
    padding-bottom: 0px;
    padding-left: 0px;
-   
+  }
+  section{
+    height: 500px;
+    padding-bottom: 150px;
+  }
+  .image-container {
+    display: flex;
+    padding: 100px;
+  }
+  .image-container img {    
+    width: 25%;
+    height: auto;
+    margin-left: 100px;
   }
   
-  
+  h2{
+    width: 100px;
+    height: 40px;
+    padding-left: 100px;
+    color: rgba(65, 57, 96, 1);
+  }
+  h3{
+    width: 128px;
+    height: 24px;
+    padding-left: 100px;
+    color: rgba(88, 88, 89, 1);
+  }
+  #Book{
+    margin-right: 30px;
+    padding-top: 20px;
+    box-shadow: 10px 10px 40px blue;
+    border: 270px;
+    width: 672px;
+    height: 231px;
+    
+  }
+  #student{
+    margin-right: 30px;
+    padding-top: 20px;
+    box-shadow: 10px 10px 40px blue;
+    border: 270px;
+    width: 672px;
+    height: 231px;
+  }
+  #test{
+    margin-right: 30px;
+    padding-top: 20px;
+    box-shadow: 10px 10px 40px blue;
+    border: 270px;
+    width: 672px;
+    height: 231px;
+  }
+  #students{
+    margin-right: 30px;
+    padding-top: 20px;
+    box-shadow: 10px 10px 40px blue;
+    border: 270px;
+    width: 672px;
+    height: 231px;
+  }
